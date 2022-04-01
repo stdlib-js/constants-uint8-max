@@ -1,0 +1,32 @@
+{
+  "name": "@stdlib/constants-uint8-max",
+  "version": "0.0.0",
+  "description": "Maximum unsigned 8-bit integer.",
+  "license": "Apache-2.0",
+  "main": "./bundle.js",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/constants-uint8-max.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdmath",
+    "constant",
+    "const",
+    "max",
+    "maximum",
+    "uint8",
+    "integer",
+    "unsigned",
+    "8-bit",
+    "int"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
