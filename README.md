@@ -24,32 +24,30 @@ limitations under the License.
 
 > Maximum unsigned 8-bit integer.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-uint8-max
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-UINT8_MAX = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint8-max@umd/bundle.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint8-max@umd/bundle.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.UINT8_MAX;
-})();
-</script>
+var UINT8_MAX = require( '@stdlib/constants-uint8-max' );
 ```
 
 #### UINT8_MAX
@@ -73,21 +71,11 @@ var bool = ( UINT8_MAX === 255 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint8-max@umd/bundle.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var UINT8_MAX = require( '@stdlib/constants-uint8-max' );
 
 console.log( UINT8_MAX );
 // => 255
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -173,12 +161,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [deno-url]: https://github.com/stdlib-js/constants-uint8-max/tree/deno
 [umd-url]: https://github.com/stdlib-js/constants-uint8-max/tree/umd
 [esm-url]: https://github.com/stdlib-js/constants-uint8-max/tree/esm
+[branches-url]: https://github.com/stdlib-js/constants-uint8-max/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/constants-uint8-max/main/LICENSE
 
 <!-- <related-links> -->
 
-[@stdlib/constants/int8/max]: https://github.com/stdlib-js/constants-int8-max/tree/umd
+[@stdlib/constants/int8/max]: https://github.com/stdlib-js/constants-int8-max
 
 <!-- </related-links> -->
 
