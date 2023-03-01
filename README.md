@@ -90,7 +90,7 @@ console.log( UINT8_MAX );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/constants/int8/max`][@stdlib/constants/int8/max]</span><span class="delimiter">: </span><span class="description">maximum signed 8-bit integer.</span>
+-   <span class="package-name">[`@stdlib/constants-int8/max`][@stdlib/constants/int8/max]</span><span class="delimiter">: </span><span class="description">maximum signed 8-bit integer.</span>
 
 </section>
 
