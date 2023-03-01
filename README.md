@@ -24,14 +24,30 @@ limitations under the License.
 
 > Maximum unsigned 8-bit integer.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/constants-uint8-max
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import UINT8_MAX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint8-max@deno/mod.js';
+var UINT8_MAX = require( '@stdlib/constants-uint8-max' );
 ```
 
 #### UINT8_MAX
@@ -56,7 +72,7 @@ var bool = ( UINT8_MAX === 255 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import UINT8_MAX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint8-max@deno/mod.js';
+var UINT8_MAX = require( '@stdlib/constants-uint8-max' );
 
 console.log( UINT8_MAX );
 // => 255
@@ -74,7 +90,7 @@ console.log( UINT8_MAX );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/constants/int8/max`][@stdlib/constants/int8/max]</span><span class="delimiter">: </span><span class="description">maximum signed 8-bit integer.</span>
+-   <span class="package-name">[`@stdlib/constants-int8/max`][@stdlib/constants/int8/max]</span><span class="delimiter">: </span><span class="description">maximum signed 8-bit integer.</span>
 
 </section>
 
@@ -89,7 +105,7 @@ console.log( UINT8_MAX );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -151,7 +167,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/constants/int8/max]: https://github.com/stdlib-js/constants-int8-max/tree/deno
+[@stdlib/constants/int8/max]: https://github.com/stdlib-js/constants-int8-max
 
 <!-- </related-links> -->
 
