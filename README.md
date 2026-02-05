@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import UINT8_MAX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint8-max@esm/index.mjs';
+import UINT8_MAX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint8-max@v0.2.3-esm/index.mjs';
 ```
 
 #### UINT8_MAX
@@ -72,7 +72,7 @@ var bool = ( UINT8_MAX === 255 );
 <body>
 <script type="module">
 
-import UINT8_MAX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint8-max@esm/index.mjs';
+import UINT8_MAX from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-uint8-max@v0.2.3-esm/index.mjs';
 
 console.log( UINT8_MAX );
 // => 255
